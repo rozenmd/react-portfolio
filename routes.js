@@ -49,7 +49,14 @@ const routes = {
                     .catch(errorLoading);
             }
         },
-
+        {
+            path: '/projects/nghbr',
+            getComponent(location, cb) {
+                System.import('components/stories/nghbr/index')
+                    .then(loadRoute(cb))
+                    .catch(errorLoading);
+            }
+        },
         {
             path: '*',
             getComponent(location, cb) {

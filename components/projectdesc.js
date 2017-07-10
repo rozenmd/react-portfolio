@@ -11,7 +11,7 @@ class ProjectDescription extends Component {
                 return '#6da3f9';
             case '#random':
                 return '#e86a5c';
-            case '#website':
+            case '#project':
                 return '#ba8cd1';
             default:
                 return '#c7ccd6'

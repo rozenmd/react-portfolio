@@ -4,19 +4,19 @@ import StoryHeader from '../storyheader'
 import StoryFooter from '../storyfooter'
 
 
-export default class canigooutsideyet extends Component {
+export default class nghbr extends Component {
 
 
     render() {
 
-        const heading = 'Can I Go Outside Yet?';
-        const subheading = 'A simple way to check if it\'s worth going outside today';
+        const heading = 'NGhBR';
+        const subheading = 'A hyperlocal social network for the suburbs';
         const date = 'July 2017';
         const githubLink = 'https://github.com/rozenmd/NGHBR';
 
 
         return (
-            <div id="canigooutsideyet">
+            <div id="nghbr">
                 <StoryHeader heading={ heading } subheading={ subheading } date={ date }/>
                 <div className="container">
 
@@ -39,9 +39,8 @@ export default class canigooutsideyet extends Component {
                         <p>
 
                         </p>
-                        <Highlight className='javascript'>
-                            {angular_route}
-                        </Highlight>
+
+
                     </div>
 
 
