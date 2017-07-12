@@ -13,6 +13,7 @@ export default class HomeNav extends Component {
                 <li><a className="custom-link" data-name="about" onClick={ onClick }>ABOUT</a></li>
                 <li><a className="custom-link" data-name="projects" onClick={ onClick }>PROJECTS</a></li>
 
+                <li><a target="_blank" href="https://maxrozen.com/legacy/blog/">LEGACY</a></li>
                 <li>
                     <a target="_blank" href="https://www.linkedin.com/in/rozenmd">
                         <FontAwesome className='social-media-icon' name='linkedin'/>
