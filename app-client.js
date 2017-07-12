@@ -2,9 +2,8 @@ import React from 'react'
 import {render} from 'react-dom'
 import Root from './routes'
 import ReactGA from 'react-ga'
-import siteID from './analytics.js'
 
-ReactGA.initialize(siteID);
+ReactGA.initialize('UA-42211308-2');
 
 render(
     <Root />,
