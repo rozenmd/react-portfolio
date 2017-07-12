@@ -10,7 +10,7 @@ export default class ProjectsDisplay extends Component {
         const projectComponents = [];
 
         for (let project of projects) {
-            projectComponents.push(<ProjectDescription project={ project } key={ project.title }/>)
+            projectComponents.push(<ProjectDescription project={ project } key={ project.title } description={project.description} year={project.year} />)
         }
 
         return (

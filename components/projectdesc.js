@@ -42,7 +42,7 @@ class ProjectDescription extends Component {
 
     render() {
 
-        const {title, description, tags, links, uri, internal} = this.props.project;
+        const {title, description, tags, links, uri, internal, year} = this.props.project;
 
         const colorTags = tags.map((tag) => {
             const style = {
@@ -52,14 +52,15 @@ class ProjectDescription extends Component {
         });
 
         const titleComponent = <h2 className="project-title">{ title }</h2>;
-
+        const created = <span>Created: {year}</span>;
+        const desc = <span>{description}</span>;
         const link = internal ?
             (<CustomLink to={uri}>{titleComponent}</CustomLink>)
             : <a className='custom-link' href={uri}>{titleComponent}</a>;
 
         return (
             <div className="col-md-6 col-centered project-desc-container">
-                { link }
+                { link } {desc} <br/>{created}
                 <div className="project-details">
                     { colorTags }
                     { links.map(this.getLinkIcon) }

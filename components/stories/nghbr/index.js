@@ -9,7 +9,7 @@ export default class nghbr extends Component {
 
     render() {
 
-        const heading = 'NGhBR';
+        const heading = 'NGHBR';
         const subheading = 'A hyperlocal social network for the suburbs';
         const date = 'July 2017';
         const githubLink = 'https://github.com/rozenmd/NGHBR';
@@ -20,26 +20,23 @@ export default class nghbr extends Component {
                 <StoryHeader heading={ heading } subheading={ subheading } date={ date }/>
                 <div className="container">
 
+
                     <div className="row">
-                        <p>I wrote this <a href="https://maxrozen.com/single-page/can-i-go-outside-yet" target="_blank">web
-                            app</a> back in 2015 to experiment with AngularJS, and test my understanding of
-                            JavaScript.</p>
-                        <p>Originally, my idea was that it would send a notification via email each time an API
-                            responded with a southerly
-                            wind at the Bureau of Meteorology's Sydney Airport weather station on a given day. </p>
-                        <p>
-                            I quickly realised IP based geolocation in HTML5 was now accurate
-                            enough to get you somewhat accurate weather forecasting using www.wunderground.com, so I
-                            quickly figured out how to use their API for a fun little weather app.</p>
-                        <p>
-                            On the technical implementation side, I wrote a simple router in Angular to switch between
-                            tabs in the app, and used leaflet and markercluster libraries to display weather stations
-                            over a map of Australia.
+                        <p>This app was written as part of a Positive Computing course at the University of Sydney.
+                            Our assignment was to create an application that would help better society. I ended up
+                            joining
+                            a group of talented developers and together we decided the best way to achieve this goal was
+                            to create
+                            yet another social network</p>
+                        <p>Here's a Youtube video we came up with to promote the project: <a
+                            href="https://www.youtube.com/watch?v=oVNPMYoqPJU" target="_blank">https://www.youtube.com/watch?v=oVNPMYoqPJU</a>
                         </p>
                         <p>
-
+                            So in the end the idea was to improve neighbourhood interactions by creating a place for
+                            neighbours to chat, post events, share power tools and just hang out.
                         </p>
-
+                        <p>On the technical side, it was written in Java using Spring MVC with Hibernate ORM, and a
+                            MySQL database. Ironically enough, login was provided by Facebook.js OAuth2.</p>
 
                     </div>
 

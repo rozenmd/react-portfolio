@@ -2,9 +2,20 @@ import React from 'react'
 
 const projects = [
     {
+        title: 'Billdivider.com',
+        titleFont: '',
+        description: 'Divides your bills!',
+        uri: '/projects/billdivider',
+        tags: ['#project'],
+        links: [{name: 'github', url: 'https://github.com/rozenmd/housemates'}],
+        year: 2017,
+        image: null,
+        internal: true
+    },
+    {
         title: 'Can I Go Outside Yet?',
         titleFont: '',
-        description: 'A simple way to check if its worth going outside today!',
+        description: 'A simple way to check if its worth going outside today',
         uri: '/projects/can-i-go-outside-yet',
         tags: ['#project'],
         links: [{name: 'github', url: 'https://github.com/rozenmd/CanIGoOutsideYet'}],

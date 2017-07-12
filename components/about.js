@@ -7,13 +7,13 @@ export default (props) => {
 
         <div className="row img-container">
             <div className="row about-text">
-                <p className="lead">My name is <a href="https://maxrozen.com/">Max Rozen</a>, I'm currently a Consultant
-                    +
-                    Full Stack Software Engineer, with a focus on Data Engineering for analytics platforms at EYC3. Much
+                <p className="lead">My name is Max Rozen, I'm a Full Stack Software Engineer, with a focus on Data
+                    Engineering for Analytics Platforms at EYC3. Much
                     of my
                     work lies in the backend using Python, though I've been known to help out on the front-end in
                     AngularJS and React.
                 </p>
+                <p>In fact, this site is build using React + React Router!</p>
 
                 <hr/>
                 <p >If you have any questions about me or you just want to get in touch,

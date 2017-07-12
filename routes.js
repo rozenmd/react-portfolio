@@ -58,6 +58,14 @@ const routes = {
             }
         },
         {
+            path: '/projects/billdivider',
+            getComponent(location, cb) {
+                System.import('components/stories/billdivider/index')
+                    .then(loadRoute(cb))
+                    .catch(errorLoading);
+            }
+        },
+        {
             path: '*',
             getComponent(location, cb) {
                 System.import('components/nomatch')
