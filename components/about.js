@@ -13,7 +13,7 @@ export default (props) => {
                     work lies in the backend using Python, though I've been known to help out on the front-end in
                     AngularJS and React.
                 </p>
-                <p>In fact, this site is build using React + React Router!</p>
+                <p>In fact, this site is built using React + React Router!</p>
 
                 <hr/>
                 <p >If you have any questions about me or you just want to get in touch,
