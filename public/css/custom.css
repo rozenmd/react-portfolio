@@ -21,7 +21,7 @@ margin: 0 auto;
 }
 
 .social-media-icon {
-	padding: 0px 10px;
+	/*padding: 0px 10px;*/
 	font-size: 17px;
 	color: #4b4c4c;
 	/*border: 1px solid red;*/
@@ -467,6 +467,11 @@ rect.day-cell:hover {
 
 .footer-top {
 	text-align: center;
+}
+
+.footer-top a {
+	padding: 0px 10px;
+
 }
 
 #alexa-planes-story .custom-post-heading, #desk-alert-story .custom-post-heading {
