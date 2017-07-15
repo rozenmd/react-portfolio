@@ -48,7 +48,7 @@ class ProjectDescription extends Component {
             const style = {
                 'backgroundColor': this.getColor(tag)
             };
-            return <span className="project-tag" style={ style }>{ tag }</span>
+            return <span key={tag} className="project-tag" style={ style }>{ tag }</span>
         });
 
         const titleComponent = <h2 className="project-title">{ title }</h2>;
