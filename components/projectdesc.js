@@ -7,7 +7,7 @@ class ProjectDescription extends Component {
     getColor(tag) {
         switch (tag) {
 
-            case '#data-viz':
+            case '#blog':
                 return '#6da3f9';
             case '#random':
                 return '#e86a5c';

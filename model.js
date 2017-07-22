@@ -2,6 +2,17 @@ import React from 'react'
 
 const projects = [
     {
+        title: 'Blog Posting and Filtering!',
+        titleFont: '',
+        description: 'Extending my React Portfolio site',
+        uri: '/projects/blog',
+        tags: ['#blog'],
+        links: [{name: 'github', url: 'https://github.com/rozenmd/react-portfolio'}],
+        year: 2017,
+        image: null,
+        internal: true
+    },
+    {
         title: 'Billdivider.com',
         titleFont: '',
         description: 'Divides your bills!',

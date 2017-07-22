@@ -66,6 +66,14 @@ const routes = {
             }
         },
         {
+            path: '/projects/blog',
+            getComponent(location, cb) {
+                System.import('components/stories/blog1/index')
+                    .then(loadRoute(cb))
+                    .catch(errorLoading);
+            }
+        },
+        {
             path: '*',
             getComponent(location, cb) {
                 System.import('components/nomatch')
