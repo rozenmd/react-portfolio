@@ -21,7 +21,7 @@ export default class canigooutsideyet extends Component {
                 <div className="container">
 
                     <div className="row">
-                        <p>I wrote this <a href="https://maxrozen.com/single-page/can-i-go-outside-yet" target="_blank">web
+                        <p>I wrote this <a href="https://maxrozen.com/single-page/can-i-go-outside-yet/" target="_blank">web
                             app</a> back in 2015 to experiment with AngularJS, and test my understanding of
                             JavaScript.</p>
                         <p>Originally, my idea was that it would send a notification via email each time an API
