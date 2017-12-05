@@ -27,8 +27,10 @@
     "webpack": "2.6.1"
   },
   "scripts": {
-    "development": "cp views/index.html public/index.html && NODE_ENV=development webpack && webpack-dev-server --content-base public/ --inline --devtool inline-source-map --history-api-fallback",
-    "production": "NODE_ENV=production webpack && NODE_ENV=production node app.js"
+    "development":
+      "cp views/index.html public/index.html && NODE_ENV=development webpack && webpack-dev-server --content-base public/ --inline --devtool inline-source-map --history-api-fallback",
+    "production":
+      "NODE_ENV=production webpack && NODE_ENV=production node app.js"
   },
   "author": "",
   "license": "ISC",

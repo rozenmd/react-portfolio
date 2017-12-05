@@ -33,3 +33,7 @@ chrome-user-data
 *react*min*.js
 !src/node_modules
 dist/
+build
+terraform
+.terraform
+infrastructure
