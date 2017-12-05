@@ -1,0 +1,39 @@
+scalar JSON
+
+type Post {
+  id: Int!,
+  heading: String,
+  subheading: String,
+  date: String,
+  github_link: String,
+  markup: String,
+  tags: [String],
+  location: String,
+  post_date: String
+}
+type Link {
+  id: Int!,
+  name: String,
+  url: String
+}
+type Project {
+  id: Int!,
+  title: String,
+  titleFont: String,
+  description: String,
+  uri: String,
+  tags: [String],
+  links: [Link],
+  year: String,
+  image: String,
+  internal: String,
+}
+
+type Query {
+  posts(id: Int): [Post]
+}
+
+
+schema {
+  query: Query
+}

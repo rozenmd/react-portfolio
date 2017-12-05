@@ -31,7 +31,7 @@ const routes = {
     {
       path: '/',
       getComponent(location, cb) {
-        System.import('components/home')
+        System.import('./components/home')
           .then(loadRoute(cb))
           .catch(errorLoading)
       },
@@ -39,7 +39,7 @@ const routes = {
     {
       path: '/projects/can-i-go-outside-yet',
       getComponent(location, cb) {
-        System.import('components/stories/CanIGoOutsideYet/index')
+        System.import('./components/stories/CanIGoOutsideYet/index')
           .then(loadRoute(cb))
           .catch(errorLoading)
       },
@@ -47,7 +47,7 @@ const routes = {
     {
       path: '/projects/nghbr',
       getComponent(location, cb) {
-        System.import('components/stories/nghbr/index')
+        System.import('./components/stories/nghbr/index')
           .then(loadRoute(cb))
           .catch(errorLoading)
       },
@@ -55,7 +55,7 @@ const routes = {
     {
       path: '/projects/billdivider',
       getComponent(location, cb) {
-        System.import('components/stories/billdivider/index')
+        System.import('./components/stories/billdivider/index')
           .then(loadRoute(cb))
           .catch(errorLoading)
       },
@@ -63,7 +63,7 @@ const routes = {
     {
       path: '/projects/blog',
       getComponent(location, cb) {
-        System.import('components/stories/blog1/index')
+        System.import('./components/stories/blog1/index')
           .then(loadRoute(cb))
           .catch(errorLoading)
       },
@@ -71,7 +71,7 @@ const routes = {
     {
       path: '*',
       getComponent(location, cb) {
-        System.import('components/nomatch')
+        System.import('./components/nomatch')
           .then(loadRoute(cb))
           .catch(errorLoading)
       },
